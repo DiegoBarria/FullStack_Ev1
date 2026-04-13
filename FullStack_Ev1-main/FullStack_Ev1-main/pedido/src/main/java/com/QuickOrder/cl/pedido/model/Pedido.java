@@ -1,16 +1,13 @@
 package com.QuickOrder.cl.pedido.model;
 
-// VALIDATION
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
-// LOMBOK
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-// TIME
 import java.time.LocalDate;
 
 @Data @NoArgsConstructor @AllArgsConstructor
